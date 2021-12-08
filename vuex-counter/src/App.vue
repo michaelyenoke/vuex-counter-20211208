@@ -1,9 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/count.jpg">
   <p>count: {{ $store.state.count }}</p>
   <!--點擊時增加觸發increment()-->
   <button @click="$store.commit('increment')">increment</button>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Count The Number!"/>
 </template>
 
 <script>
